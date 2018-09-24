@@ -36,21 +36,20 @@ html {
 */
 
 body {
-    background: url("../images/gatsby.jpg") no-repeat right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url("../images/gatsby.jpg") no-repeat fixed;
+    background-position: right;
     background-size: cover;
 }
 
 .container {
-    width: 750px;
+    width: 770px;
     margin: auto;
     padding: 1.5em;
     position: absolute;
     right: 10px;
     top: 230px;
-    background: rgb(0,0,0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+    padding-left: 45px;
 }
 
 /*
@@ -82,19 +81,19 @@ q, p {
 p::before {
     content: "\201C";
     position: absolute;
-    left: -17px;
-    top: -10px;
+    left: -28px;
+    top: -30px;
     color: gold;
-    font-size: 45px;
+    font-size: 75px;
 }
 
 p::after {
     content: "\201D";
     position: absolute;
-    top: 120px;
-    right: 35px;
+    top: 110px;
+    right: 24px;
     color: gold;
-    font-size: 45px;
+    font-size: 75px;
 
 }
 
